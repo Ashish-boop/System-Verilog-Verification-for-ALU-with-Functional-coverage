@@ -1,0 +1,2 @@
+var g_data = {"9":{"pr":"/alu_pkg","ty":2,"dui":2,"dun":"work.alu_pkg","cvgs":[{"h":["\\/alu_pkg::alu_sb::alu_cov ",2,1,15,10],"cov":[674,296,85.41],"opts":{"goal":"100","per_instance":"true"}},{"h":["\\/alu_pkg::alu_sb::alu_cov#2 ",2,1,20,10],"cov":[674,451,91.39],"opts":{"goal":"100","per_instance":"true"}},{"h":["/alu_pkg/alu_sb/alu_cov",1,1,10],"cov":[674,469,92.09],"opts":{"goal":"100","merge_instance":"auto(true)"}}]}};
+processCovergroupsData(g_data);

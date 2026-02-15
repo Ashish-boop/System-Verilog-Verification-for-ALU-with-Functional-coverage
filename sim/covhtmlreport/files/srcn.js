@@ -1,0 +1,2 @@
+var g_data = ["","../env_lib/alu_if.sv","../test/alu_pkg.sv","../env_lib/alu_sb.sv","../env_lib/alu_trans.sv","../env_lib/alu_gen.sv","../env_lib/alu_drv.sv","../env_lib/alu_mon.sv","../env_lib/alu_rm.sv","../env/alu_env.sv","../test/alu_test.sv","../test/alu_top.sv","../rtl/alu.v"];
+processSrcNamesData(g_data);

@@ -1,0 +1,3645 @@
+# vsim -cvgperinstance -vopt -voptargs="+acc" -coverage -sva -c -do " log -r /* ;coverage save -onexit alu_cov1;run -all; exit" -wlf wave_file1.wlf -l test1.log -sv_seed 2975249645 work.alu_top "+TEST1" 
+# Start time: 00:36:15 on Feb 16,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# //  Questa Sim-64
+# //  Version 2022.1_2 linux_x86_64 Apr  2 2022
+# //
+# //  Copyright 1991-2022 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.alu_if(fast)
+# Loading work.alu_pkg(fast)
+# Loading work.alu_top_sv_unit(fast)
+# Loading work.alu_top(fast)
+# Loading work.alu_if(fast__2)
+# Loading work.alu(fast)
+#  log -r /* 
+# coverage save -onexit alu_cov1
+# run -all
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : x
+# B Input      : x
+# Operation    : x
+# Result Output: x
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 78
+# B Input      : 114
+# Operation    : 0
+# Result Output: 192
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 201
+# B Input      : 82
+# Operation    : 5
+# Result Output: 65334
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 49
+# B Input      : 110
+# Operation    : 7
+# Result Output: 24
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 218
+# B Input      : 28
+# Operation    : 3
+# Result Output: 222
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 48
+# B Input      : 166
+# Operation    : 6
+# Result Output: 96
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 107
+# B Input      : 204
+# Operation    : 2
+# Result Output: 72
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 21
+# B Input      : 130
+# Operation    : 1
+# Result Output: 65427
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 136
+# B Input      : 178
+# Operation    : 3
+# Result Output: 186
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 87
+# B Input      : 174
+# Operation    : 0
+# Result Output: 261
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 144
+# B Input      : 4
+# Operation    : 2
+# Result Output: 0
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 171
+# B Input      : 24
+# Operation    : 0
+# Result Output: 195
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 75
+# B Input      : 39
+# Operation    : 4
+# Result Output: 108
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 185
+# B Input      : 56
+# Operation    : 5
+# Result Output: 65350
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 141
+# B Input      : 132
+# Operation    : 1
+# Result Output: 9
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 75
+# B Input      : 223
+# Operation    : 0
+# Result Output: 298
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 137
+# B Input      : 43
+# Operation    : 5
+# Result Output: 65398
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 79
+# B Input      : 130
+# Operation    : 1
+# Result Output: 65485
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 162
+# B Input      : 80
+# Operation    : 4
+# Result Output: 242
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 111
+# B Input      : 186
+# Operation    : 0
+# Result Output: 297
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 213
+# B Input      : 25
+# Operation    : 3
+# Result Output: 221
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 9
+# B Input      : 38
+# Operation    : 0
+# Result Output: 47
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 194
+# B Input      : 38
+# Operation    : 3
+# Result Output: 230
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 102
+# B Input      : 113
+# Operation    : 1
+# Result Output: 65525
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 223
+# B Input      : 200
+# Operation    : 0
+# Result Output: 423
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 183
+# B Input      : 70
+# Operation    : 3
+# Result Output: 247
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 143
+# B Input      : 41
+# Operation    : 1
+# Result Output: 102
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 187
+# B Input      : 0
+# Operation    : 7
+# Result Output: 93
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 3
+# B Input      : 140
+# Operation    : 7
+# Result Output: 1
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 61
+# B Input      : 126
+# Operation    : 3
+# Result Output: 127
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 100
+# B Input      : 172
+# Operation    : 4
+# Result Output: 200
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 205
+# B Input      : 0
+# Operation    : 6
+# Result Output: 410
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 49
+# B Input      : 142
+# Operation    : 2
+# Result Output: 0
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 109
+# B Input      : 113
+# Operation    : 3
+# Result Output: 125
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 115
+# B Input      : 67
+# Operation    : 2
+# Result Output: 67
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 162
+# B Input      : 109
+# Operation    : 5
+# Result Output: 65373
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 211
+# B Input      : 59
+# Operation    : 5
+# Result Output: 65324
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 210
+# B Input      : 140
+# Operation    : 6
+# Result Output: 420
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 194
+# B Input      : 116
+# Operation    : 2
+# Result Output: 64
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 133
+# B Input      : 210
+# Operation    : 4
+# Result Output: 87
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 109
+# B Input      : 65
+# Operation    : 2
+# Result Output: 65
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 69
+# B Input      : 181
+# Operation    : 1
+# Result Output: 65424
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 215
+# B Input      : 137
+# Operation    : 4
+# Result Output: 94
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 131
+# B Input      : 114
+# Operation    : 2
+# Result Output: 2
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 52
+# B Input      : 53
+# Operation    : 2
+# Result Output: 52
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 145
+# B Input      : 199
+# Operation    : 6
+# Result Output: 290
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 147
+# B Input      : 76
+# Operation    : 5
+# Result Output: 65388
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 74
+# B Input      : 187
+# Operation    : 2
+# Result Output: 10
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 220
+# B Input      : 162
+# Operation    : 0
+# Result Output: 382
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 10
+# B Input      : 161
+# Operation    : 1
+# Result Output: 65385
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 46
+# B Input      : 71
+# Operation    : 3
+# Result Output: 111
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 38
+# B Input      : 100
+# Operation    : 0
+# Result Output: 138
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 26
+# B Input      : 172
+# Operation    : 5
+# Result Output: 65509
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 86
+# B Input      : 121
+# Operation    : 2
+# Result Output: 80
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 55
+# B Input      : 13
+# Operation    : 0
+# Result Output: 68
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 205
+# B Input      : 81
+# Operation    : 5
+# Result Output: 65330
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 115
+# B Input      : 190
+# Operation    : 5
+# Result Output: 65420
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 171
+# B Input      : 222
+# Operation    : 5
+# Result Output: 65364
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 201
+# B Input      : 201
+# Operation    : 5
+# Result Output: 65334
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 103
+# B Input      : 224
+# Operation    : 0
+# Result Output: 327
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 127
+# B Input      : 89
+# Operation    : 6
+# Result Output: 254
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 96
+# B Input      : 96
+# Operation    : 7
+# Result Output: 48
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 66
+# B Input      : 212
+# Operation    : 3
+# Result Output: 214
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 8
+# B Input      : 222
+# Operation    : 3
+# Result Output: 222
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 50
+# B Input      : 200
+# Operation    : 7
+# Result Output: 25
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 217
+# B Input      : 65
+# Operation    : 2
+# Result Output: 65
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 113
+# B Input      : 196
+# Operation    : 2
+# Result Output: 64
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 32
+# B Input      : 29
+# Operation    : 1
+# Result Output: 3
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 212
+# B Input      : 130
+# Operation    : 3
+# Result Output: 214
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 191
+# B Input      : 131
+# Operation    : 0
+# Result Output: 322
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 145
+# B Input      : 136
+# Operation    : 4
+# Result Output: 25
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 206
+# B Input      : 199
+# Operation    : 0
+# Result Output: 405
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 133
+# B Input      : 192
+# Operation    : 6
+# Result Output: 266
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 169
+# B Input      : 44
+# Operation    : 2
+# Result Output: 40
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 96
+# B Input      : 19
+# Operation    : 7
+# Result Output: 48
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 118
+# B Input      : 139
+# Operation    : 3
+# Result Output: 255
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 203
+# B Input      : 68
+# Operation    : 3
+# Result Output: 207
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 6
+# B Input      : 163
+# Operation    : 0
+# Result Output: 169
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 174
+# B Input      : 13
+# Operation    : 1
+# Result Output: 161
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 112
+# B Input      : 43
+# Operation    : 1
+# Result Output: 69
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 173
+# B Input      : 33
+# Operation    : 7
+# Result Output: 86
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 70
+# B Input      : 37
+# Operation    : 3
+# Result Output: 103
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 113
+# B Input      : 214
+# Operation    : 5
+# Result Output: 65422
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 220
+# B Input      : 178
+# Operation    : 4
+# Result Output: 110
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 205
+# B Input      : 14
+# Operation    : 2
+# Result Output: 12
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 54
+# B Input      : 146
+# Operation    : 1
+# Result Output: 65444
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 98
+# B Input      : 183
+# Operation    : 5
+# Result Output: 65437
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 27
+# B Input      : 202
+# Operation    : 3
+# Result Output: 219
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 0
+# B Input      : 130
+# Operation    : 1
+# Result Output: 65406
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 22
+# B Input      : 130
+# Operation    : 0
+# Result Output: 152
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 201
+# B Input      : 154
+# Operation    : 2
+# Result Output: 136
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 140
+# B Input      : 149
+# Operation    : 0
+# Result Output: 289
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 145
+# B Input      : 210
+# Operation    : 4
+# Result Output: 67
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 81
+# B Input      : 22
+# Operation    : 1
+# Result Output: 59
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 177
+# B Input      : 111
+# Operation    : 7
+# Result Output: 88
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 161
+# B Input      : 178
+# Operation    : 7
+# Result Output: 80
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 175
+# B Input      : 215
+# Operation    : 7
+# Result Output: 87
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 198
+# B Input      : 201
+# Operation    : 4
+# Result Output: 15
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 47
+# B Input      : 180
+# Operation    : 5
+# Result Output: 65488
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 135
+# B Input      : 176
+# Operation    : 1
+# Result Output: 65495
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 130
+# B Input      : 191
+# Operation    : 3
+# Result Output: 191
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 119
+# B Input      : 121
+# Operation    : 7
+# Result Output: 59
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 87
+# B Input      : 34
+# Operation    : 0
+# Result Output: 121
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 60
+# B Input      : 110
+# Operation    : 3
+# Result Output: 126
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 190
+# B Input      : 73
+# Operation    : 5
+# Result Output: 65345
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 118
+# B Input      : 159
+# Operation    : 5
+# Result Output: 65417
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 17
+# B Input      : 168
+# Operation    : 0
+# Result Output: 185
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 84
+# B Input      : 10
+# Operation    : 6
+# Result Output: 168
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 205
+# B Input      : 99
+# Operation    : 0
+# Result Output: 304
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 113
+# B Input      : 87
+# Operation    : 7
+# Result Output: 56
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 103
+# B Input      : 159
+# Operation    : 2
+# Result Output: 7
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 7
+# B Input      : 216
+# Operation    : 2
+# Result Output: 0
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 81
+# B Input      : 48
+# Operation    : 4
+# Result Output: 97
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 171
+# B Input      : 87
+# Operation    : 6
+# Result Output: 342
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 52
+# B Input      : 78
+# Operation    : 7
+# Result Output: 26
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 215
+# B Input      : 185
+# Operation    : 0
+# Result Output: 400
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 108
+# B Input      : 123
+# Operation    : 7
+# Result Output: 54
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 215
+# B Input      : 26
+# Operation    : 5
+# Result Output: 65320
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 100
+# B Input      : 89
+# Operation    : 2
+# Result Output: 64
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 159
+# B Input      : 85
+# Operation    : 0
+# Result Output: 244
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 38
+# B Input      : 101
+# Operation    : 0
+# Result Output: 139
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 139
+# B Input      : 197
+# Operation    : 3
+# Result Output: 207
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 110
+# B Input      : 129
+# Operation    : 2
+# Result Output: 0
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 71
+# B Input      : 140
+# Operation    : 2
+# Result Output: 4
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 31
+# B Input      : 86
+# Operation    : 2
+# Result Output: 22
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 81
+# B Input      : 225
+# Operation    : 3
+# Result Output: 241
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 20
+# B Input      : 70
+# Operation    : 7
+# Result Output: 10
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 114
+# B Input      : 182
+# Operation    : 1
+# Result Output: 65468
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 39
+# B Input      : 172
+# Operation    : 7
+# Result Output: 19
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 98
+# B Input      : 164
+# Operation    : 4
+# Result Output: 198
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 54
+# B Input      : 220
+# Operation    : 5
+# Result Output: 65481
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 81
+# B Input      : 88
+# Operation    : 7
+# Result Output: 40
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 18
+# B Input      : 132
+# Operation    : 0
+# Result Output: 150
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 142
+# B Input      : 129
+# Operation    : 6
+# Result Output: 284
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 61
+# B Input      : 72
+# Operation    : 7
+# Result Output: 30
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 66
+# B Input      : 194
+# Operation    : 4
+# Result Output: 128
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 20
+# B Input      : 71
+# Operation    : 7
+# Result Output: 10
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 91
+# B Input      : 130
+# Operation    : 3
+# Result Output: 219
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 211
+# B Input      : 31
+# Operation    : 0
+# Result Output: 242
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 171
+# B Input      : 157
+# Operation    : 3
+# Result Output: 191
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 75
+# B Input      : 24
+# Operation    : 4
+# Result Output: 83
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 79
+# B Input      : 218
+# Operation    : 2
+# Result Output: 74
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 21
+# B Input      : 146
+# Operation    : 7
+# Result Output: 10
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 127
+# B Input      : 61
+# Operation    : 2
+# Result Output: 61
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 94
+# B Input      : 114
+# Operation    : 2
+# Result Output: 82
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 169
+# B Input      : 22
+# Operation    : 0
+# Result Output: 191
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 205
+# B Input      : 191
+# Operation    : 5
+# Result Output: 65330
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 126
+# B Input      : 217
+# Operation    : 6
+# Result Output: 252
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 157
+# B Input      : 199
+# Operation    : 2
+# Result Output: 133
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 55
+# B Input      : 56
+# Operation    : 6
+# Result Output: 110
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 209
+# B Input      : 197
+# Operation    : 1
+# Result Output: 12
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 75
+# B Input      : 82
+# Operation    : 7
+# Result Output: 37
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 76
+# B Input      : 196
+# Operation    : 3
+# Result Output: 204
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 221
+# B Input      : 147
+# Operation    : 7
+# Result Output: 110
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 1
+# B Input      : 126
+# Operation    : 0
+# Result Output: 127
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 220
+# B Input      : 214
+# Operation    : 4
+# Result Output: 10
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 24
+# B Input      : 23
+# Operation    : 2
+# Result Output: 16
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 200
+# B Input      : 190
+# Operation    : 6
+# Result Output: 400
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 178
+# B Input      : 60
+# Operation    : 5
+# Result Output: 65357
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 220
+# B Input      : 153
+# Operation    : 7
+# Result Output: 110
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 59
+# B Input      : 203
+# Operation    : 4
+# Result Output: 240
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 50
+# B Input      : 119
+# Operation    : 1
+# Result Output: 65467
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 168
+# B Input      : 191
+# Operation    : 2
+# Result Output: 168
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 31
+# B Input      : 158
+# Operation    : 3
+# Result Output: 159
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 120
+# B Input      : 9
+# Operation    : 5
+# Result Output: 65415
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 35
+# B Input      : 0
+# Operation    : 5
+# Result Output: 65500
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 171
+# B Input      : 78
+# Operation    : 2
+# Result Output: 10
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 28
+# B Input      : 126
+# Operation    : 7
+# Result Output: 14
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 177
+# B Input      : 172
+# Operation    : 5
+# Result Output: 65358
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 165
+# B Input      : 60
+# Operation    : 1
+# Result Output: 105
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 162
+# B Input      : 214
+# Operation    : 0
+# Result Output: 376
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 177
+# B Input      : 122
+# Operation    : 4
+# Result Output: 203
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 77
+# B Input      : 46
+# Operation    : 0
+# Result Output: 123
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 47
+# B Input      : 171
+# Operation    : 5
+# Result Output: 65488
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 105
+# B Input      : 201
+# Operation    : 7
+# Result Output: 52
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 179
+# B Input      : 90
+# Operation    : 3
+# Result Output: 251
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 26
+# B Input      : 93
+# Operation    : 4
+# Result Output: 71
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 78
+# B Input      : 85
+# Operation    : 4
+# Result Output: 27
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 95
+# B Input      : 34
+# Operation    : 1
+# Result Output: 61
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 148
+# B Input      : 2
+# Operation    : 6
+# Result Output: 296
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 99
+# B Input      : 183
+# Operation    : 7
+# Result Output: 49
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 113
+# B Input      : 2
+# Operation    : 2
+# Result Output: 0
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 39
+# B Input      : 207
+# Operation    : 5
+# Result Output: 65496
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 109
+# B Input      : 30
+# Operation    : 2
+# Result Output: 12
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 119
+# B Input      : 129
+# Operation    : 5
+# Result Output: 65416
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 57
+# B Input      : 18
+# Operation    : 4
+# Result Output: 43
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 120
+# B Input      : 199
+# Operation    : 2
+# Result Output: 64
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 142
+# B Input      : 98
+# Operation    : 4
+# Result Output: 236
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 132
+# B Input      : 124
+# Operation    : 5
+# Result Output: 65403
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 162
+# B Input      : 159
+# Operation    : 7
+# Result Output: 81
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 75
+# B Input      : 148
+# Operation    : 3
+# Result Output: 223
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 154
+# B Input      : 62
+# Operation    : 1
+# Result Output: 92
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 107
+# B Input      : 127
+# Operation    : 7
+# Result Output: 53
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 127
+# B Input      : 147
+# Operation    : 0
+# Result Output: 274
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 110
+# B Input      : 13
+# Operation    : 7
+# Result Output: 55
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 9
+# B Input      : 207
+# Operation    : 6
+# Result Output: 18
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 96
+# B Input      : 51
+# Operation    : 2
+# Result Output: 32
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 111
+# B Input      : 161
+# Operation    : 7
+# Result Output: 55
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 37
+# B Input      : 156
+# Operation    : 3
+# Result Output: 189
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 159
+# B Input      : 84
+# Operation    : 4
+# Result Output: 203
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 92
+# B Input      : 209
+# Operation    : 5
+# Result Output: 65443
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 68
+# B Input      : 77
+# Operation    : 5
+# Result Output: 65467
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 104
+# B Input      : 48
+# Operation    : 7
+# Result Output: 52
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 200
+# B Input      : 187
+# Operation    : 3
+# Result Output: 251
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 70
+# B Input      : 90
+# Operation    : 1
+# Result Output: 65516
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 183
+# B Input      : 136
+# Operation    : 7
+# Result Output: 91
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 85
+# B Input      : 18
+# Operation    : 7
+# Result Output: 42
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 32
+# B Input      : 168
+# Operation    : 6
+# Result Output: 64
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 1
+# B Input      : 20
+# Operation    : 0
+# Result Output: 21
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 162
+# B Input      : 215
+# Operation    : 7
+# Result Output: 81
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 221
+# B Input      : 116
+# Operation    : 6
+# Result Output: 442
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 109
+# B Input      : 211
+# Operation    : 7
+# Result Output: 54
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 168
+# B Input      : 58
+# Operation    : 1
+# Result Output: 110
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 63
+# B Input      : 185
+# Operation    : 4
+# Result Output: 134
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 95
+# B Input      : 22
+# Operation    : 0
+# Result Output: 117
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 116
+# B Input      : 210
+# Operation    : 7
+# Result Output: 58
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 24
+# B Input      : 208
+# Operation    : 4
+# Result Output: 200
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 40
+# B Input      : 214
+# Operation    : 6
+# Result Output: 80
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 0
+# B Input      : 169
+# Operation    : 7
+# Result Output: 0
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 91
+# B Input      : 0
+# Operation    : 2
+# Result Output: 0
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 128
+# B Input      : 63
+# Operation    : 6
+# Result Output: 256
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 99
+# B Input      : 54
+# Operation    : 6
+# Result Output: 198
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 52
+# B Input      : 112
+# Operation    : 0
+# Result Output: 164
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 210
+# B Input      : 144
+# Operation    : 6
+# Result Output: 420
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 150
+# B Input      : 6
+# Operation    : 4
+# Result Output: 144
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 76
+# B Input      : 150
+# Operation    : 5
+# Result Output: 65459
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 54
+# B Input      : 161
+# Operation    : 0
+# Result Output: 215
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 182
+# B Input      : 69
+# Operation    : 5
+# Result Output: 65353
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 193
+# B Input      : 110
+# Operation    : 0
+# Result Output: 303
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 12
+# B Input      : 46
+# Operation    : 1
+# Result Output: 65502
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 96
+# B Input      : 51
+# Operation    : 3
+# Result Output: 115
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 130
+# B Input      : 217
+# Operation    : 4
+# Result Output: 91
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 18
+# B Input      : 133
+# Operation    : 4
+# Result Output: 151
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 111
+# B Input      : 128
+# Operation    : 6
+# Result Output: 222
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 70
+# B Input      : 38
+# Operation    : 0
+# Result Output: 108
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 71
+# B Input      : 102
+# Operation    : 7
+# Result Output: 35
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 135
+# B Input      : 223
+# Operation    : 5
+# Result Output: 65400
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 180
+# B Input      : 161
+# Operation    : 0
+# Result Output: 341
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 157
+# B Input      : 57
+# Operation    : 4
+# Result Output: 164
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 151
+# B Input      : 19
+# Operation    : 6
+# Result Output: 302
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 173
+# B Input      : 188
+# Operation    : 3
+# Result Output: 189
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 6
+# B Input      : 17
+# Operation    : 4
+# Result Output: 23
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 22
+# B Input      : 11
+# Operation    : 5
+# Result Output: 65513
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 19
+# B Input      : 218
+# Operation    : 5
+# Result Output: 65516
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 4
+# B Input      : 101
+# Operation    : 2
+# Result Output: 4
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 92
+# B Input      : 209
+# Operation    : 6
+# Result Output: 184
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 88
+# B Input      : 217
+# Operation    : 6
+# Result Output: 176
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 198
+# B Input      : 79
+# Operation    : 1
+# Result Output: 119
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 97
+# B Input      : 2
+# Operation    : 2
+# Result Output: 0
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 207
+# B Input      : 53
+# Operation    : 1
+# Result Output: 154
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 62
+# B Input      : 61
+# Operation    : 7
+# Result Output: 31
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 134
+# B Input      : 50
+# Operation    : 5
+# Result Output: 65401
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 157
+# B Input      : 196
+# Operation    : 0
+# Result Output: 353
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 13
+# B Input      : 17
+# Operation    : 3
+# Result Output: 29
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 140
+# B Input      : 76
+# Operation    : 4
+# Result Output: 192
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 142
+# B Input      : 209
+# Operation    : 0
+# Result Output: 351
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 31
+# B Input      : 206
+# Operation    : 0
+# Result Output: 237
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 164
+# B Input      : 11
+# Operation    : 0
+# Result Output: 175
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 5
+# B Input      : 98
+# Operation    : 1
+# Result Output: 65443
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 25
+# B Input      : 38
+# Operation    : 4
+# Result Output: 63
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 4
+# B Input      : 127
+# Operation    : 1
+# Result Output: 65413
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 119
+# B Input      : 114
+# Operation    : 6
+# Result Output: 238
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 139
+# B Input      : 36
+# Operation    : 7
+# Result Output: 69
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 180
+# B Input      : 71
+# Operation    : 2
+# Result Output: 4
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 222
+# B Input      : 105
+# Operation    : 2
+# Result Output: 72
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 125
+# B Input      : 41
+# Operation    : 3
+# Result Output: 125
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 98
+# B Input      : 108
+# Operation    : 4
+# Result Output: 14
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 148
+# B Input      : 9
+# Operation    : 5
+# Result Output: 65387
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 80
+# B Input      : 155
+# Operation    : 0
+# Result Output: 235
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 32
+# B Input      : 43
+# Operation    : 2
+# Result Output: 32
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 196
+# B Input      : 168
+# Operation    : 7
+# Result Output: 98
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 197
+# B Input      : 13
+# Operation    : 3
+# Result Output: 205
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 210
+# B Input      : 105
+# Operation    : 1
+# Result Output: 105
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 24
+# B Input      : 140
+# Operation    : 0
+# Result Output: 164
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 71
+# B Input      : 94
+# Operation    : 2
+# Result Output: 70
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 155
+# B Input      : 42
+# Operation    : 3
+# Result Output: 187
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 110
+# B Input      : 87
+# Operation    : 6
+# Result Output: 220
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 128
+# B Input      : 73
+# Operation    : 0
+# Result Output: 201
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 0
+# B Input      : 106
+# Operation    : 4
+# Result Output: 106
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 95
+# B Input      : 91
+# Operation    : 3
+# Result Output: 95
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 164
+# B Input      : 116
+# Operation    : 1
+# Result Output: 48
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 223
+# B Input      : 164
+# Operation    : 2
+# Result Output: 132
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 124
+# B Input      : 117
+# Operation    : 4
+# Result Output: 9
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 175
+# B Input      : 53
+# Operation    : 6
+# Result Output: 350
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 171
+# B Input      : 222
+# Operation    : 4
+# Result Output: 117
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 59
+# B Input      : 60
+# Operation    : 3
+# Result Output: 63
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 147
+# B Input      : 160
+# Operation    : 1
+# Result Output: 65523
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 205
+# B Input      : 221
+# Operation    : 6
+# Result Output: 410
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 129
+# B Input      : 69
+# Operation    : 6
+# Result Output: 258
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 183
+# B Input      : 78
+# Operation    : 2
+# Result Output: 6
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 89
+# B Input      : 109
+# Operation    : 7
+# Result Output: 44
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 48
+# B Input      : 102
+# Operation    : 3
+# Result Output: 118
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 184
+# B Input      : 175
+# Operation    : 3
+# Result Output: 191
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 201
+# B Input      : 93
+# Operation    : 0
+# Result Output: 294
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 195
+# B Input      : 171
+# Operation    : 7
+# Result Output: 97
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 137
+# B Input      : 51
+# Operation    : 1
+# Result Output: 86
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 138
+# B Input      : 28
+# Operation    : 3
+# Result Output: 158
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 29
+# B Input      : 17
+# Operation    : 1
+# Result Output: 12
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 113
+# B Input      : 206
+# Operation    : 4
+# Result Output: 191
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 22
+# B Input      : 179
+# Operation    : 4
+# Result Output: 165
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 110
+# B Input      : 94
+# Operation    : 7
+# Result Output: 55
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 185
+# B Input      : 73
+# Operation    : 6
+# Result Output: 370
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 213
+# B Input      : 70
+# Operation    : 5
+# Result Output: 65322
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 105
+# B Input      : 83
+# Operation    : 6
+# Result Output: 210
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 12
+# B Input      : 213
+# Operation    : 7
+# Result Output: 6
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 209
+# B Input      : 54
+# Operation    : 6
+# Result Output: 418
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 183
+# B Input      : 33
+# Operation    : 5
+# Result Output: 65352
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 91
+# B Input      : 79
+# Operation    : 1
+# Result Output: 12
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 0
+# B Input      : 122
+# Operation    : 5
+# Result Output: 65535
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 113
+# B Input      : 84
+# Operation    : 4
+# Result Output: 37
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 106
+# B Input      : 207
+# Operation    : 4
+# Result Output: 165
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 31
+# B Input      : 122
+# Operation    : 3
+# Result Output: 127
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 67
+# B Input      : 179
+# Operation    : 7
+# Result Output: 33
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 192
+# B Input      : 148
+# Operation    : 5
+# Result Output: 65343
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 27
+# B Input      : 192
+# Operation    : 2
+# Result Output: 0
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 168
+# B Input      : 103
+# Operation    : 3
+# Result Output: 239
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 135
+# B Input      : 40
+# Operation    : 7
+# Result Output: 67
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 122
+# B Input      : 189
+# Operation    : 3
+# Result Output: 255
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 212
+# B Input      : 44
+# Operation    : 6
+# Result Output: 424
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 42
+# B Input      : 156
+# Operation    : 7
+# Result Output: 21
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 198
+# B Input      : 130
+# Operation    : 7
+# Result Output: 99
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 108
+# B Input      : 182
+# Operation    : 1
+# Result Output: 65462
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 14
+# B Input      : 102
+# Operation    : 7
+# Result Output: 7
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 128
+# B Input      : 208
+# Operation    : 5
+# Result Output: 65407
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 127
+# B Input      : 207
+# Operation    : 4
+# Result Output: 176
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 220
+# B Input      : 206
+# Operation    : 5
+# Result Output: 65315
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 15
+# B Input      : 180
+# Operation    : 1
+# Result Output: 65371
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 40
+# B Input      : 194
+# Operation    : 0
+# Result Output: 234
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 32
+# B Input      : 70
+# Operation    : 5
+# Result Output: 65503
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 172
+# B Input      : 189
+# Operation    : 7
+# Result Output: 86
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 161
+# B Input      : 45
+# Operation    : 5
+# Result Output: 65374
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 98
+# B Input      : 130
+# Operation    : 7
+# Result Output: 49
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 85
+# B Input      : 86
+# Operation    : 6
+# Result Output: 170
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 149
+# B Input      : 7
+# Operation    : 6
+# Result Output: 298
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 203
+# B Input      : 155
+# Operation    : 5
+# Result Output: 65332
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 215
+# B Input      : 169
+# Operation    : 6
+# Result Output: 430
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 71
+# B Input      : 87
+# Operation    : 6
+# Result Output: 142
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 57
+# B Input      : 28
+# Operation    : 5
+# Result Output: 65478
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 167
+# B Input      : 34
+# Operation    : 3
+# Result Output: 167
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 90
+# B Input      : 27
+# Operation    : 1
+# Result Output: 63
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 179
+# B Input      : 34
+# Operation    : 2
+# Result Output: 34
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 3
+# B Input      : 172
+# Operation    : 7
+# Result Output: 1
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 107
+# B Input      : 141
+# Operation    : 6
+# Result Output: 214
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 56
+# B Input      : 5
+# Operation    : 2
+# Result Output: 0
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 25
+# B Input      : 109
+# Operation    : 7
+# Result Output: 12
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 89
+# B Input      : 67
+# Operation    : 7
+# Result Output: 44
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 123
+# B Input      : 179
+# Operation    : 5
+# Result Output: 65412
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 164
+# B Input      : 166
+# Operation    : 3
+# Result Output: 166
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 181
+# B Input      : 170
+# Operation    : 1
+# Result Output: 11
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 160
+# B Input      : 176
+# Operation    : 2
+# Result Output: 160
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 151
+# B Input      : 114
+# Operation    : 0
+# Result Output: 265
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 9
+# B Input      : 221
+# Operation    : 5
+# Result Output: 65526
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 144
+# B Input      : 106
+# Operation    : 1
+# Result Output: 38
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 125
+# B Input      : 187
+# Operation    : 2
+# Result Output: 57
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 44
+# B Input      : 225
+# Operation    : 0
+# Result Output: 269
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 212
+# B Input      : 37
+# Operation    : 5
+# Result Output: 65323
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 161
+# B Input      : 76
+# Operation    : 0
+# Result Output: 237
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 42
+# B Input      : 150
+# Operation    : 6
+# Result Output: 84
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 216
+# B Input      : 78
+# Operation    : 1
+# Result Output: 138
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 23
+# B Input      : 124
+# Operation    : 5
+# Result Output: 65512
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 211
+# B Input      : 173
+# Operation    : 3
+# Result Output: 255
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 177
+# B Input      : 223
+# Operation    : 6
+# Result Output: 354
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 129
+# B Input      : 52
+# Operation    : 4
+# Result Output: 181
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 87
+# B Input      : 115
+# Operation    : 0
+# Result Output: 202
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 185
+# B Input      : 199
+# Operation    : 0
+# Result Output: 384
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 27
+# B Input      : 198
+# Operation    : 7
+# Result Output: 13
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 73
+# B Input      : 134
+# Operation    : 6
+# Result Output: 146
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 181
+# B Input      : 135
+# Operation    : 0
+# Result Output: 316
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 7
+# B Input      : 179
+# Operation    : 6
+# Result Output: 14
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 29
+# B Input      : 59
+# Operation    : 0
+# Result Output: 88
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 162
+# B Input      : 126
+# Operation    : 0
+# Result Output: 288
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 187
+# B Input      : 220
+# Operation    : 1
+# Result Output: 65503
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 134
+# B Input      : 102
+# Operation    : 2
+# Result Output: 6
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 124
+# B Input      : 16
+# Operation    : 0
+# Result Output: 140
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 217
+# B Input      : 115
+# Operation    : 5
+# Result Output: 65318
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 1
+# B Input      : 71
+# Operation    : 3
+# Result Output: 71
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 80
+# B Input      : 155
+# Operation    : 6
+# Result Output: 160
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 111
+# B Input      : 145
+# Operation    : 7
+# Result Output: 55
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 77
+# B Input      : 150
+# Operation    : 1
+# Result Output: 65463
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 225
+# B Input      : 194
+# Operation    : 7
+# Result Output: 112
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 221
+# B Input      : 144
+# Operation    : 0
+# Result Output: 365
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 110
+# B Input      : 83
+# Operation    : 5
+# Result Output: 65425
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 73
+# B Input      : 13
+# Operation    : 2
+# Result Output: 9
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 159
+# B Input      : 133
+# Operation    : 3
+# Result Output: 159
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 192
+# B Input      : 144
+# Operation    : 1
+# Result Output: 48
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 112
+# B Input      : 127
+# Operation    : 6
+# Result Output: 224
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 218
+# B Input      : 26
+# Operation    : 0
+# Result Output: 244
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 124
+# B Input      : 75
+# Operation    : 7
+# Result Output: 62
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 42
+# B Input      : 127
+# Operation    : 6
+# Result Output: 84
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 99
+# B Input      : 59
+# Operation    : 7
+# Result Output: 49
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 26
+# B Input      : 48
+# Operation    : 2
+# Result Output: 16
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 67
+# B Input      : 107
+# Operation    : 4
+# Result Output: 40
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 127
+# B Input      : 174
+# Operation    : 7
+# Result Output: 63
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 91
+# B Input      : 2
+# Operation    : 6
+# Result Output: 182
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 131
+# B Input      : 36
+# Operation    : 6
+# Result Output: 262
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 69
+# B Input      : 45
+# Operation    : 4
+# Result Output: 104
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 214
+# B Input      : 61
+# Operation    : 4
+# Result Output: 235
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 96
+# B Input      : 176
+# Operation    : 1
+# Result Output: 65456
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 25
+# B Input      : 95
+# Operation    : 2
+# Result Output: 25
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 108
+# B Input      : 69
+# Operation    : 0
+# Result Output: 177
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 221
+# B Input      : 191
+# Operation    : 6
+# Result Output: 442
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 35
+# B Input      : 194
+# Operation    : 7
+# Result Output: 17
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 77
+# B Input      : 52
+# Operation    : 3
+# Result Output: 125
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 161
+# B Input      : 58
+# Operation    : 2
+# Result Output: 32
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 160
+# B Input      : 10
+# Operation    : 6
+# Result Output: 320
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 52
+# B Input      : 195
+# Operation    : 4
+# Result Output: 247
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 192
+# B Input      : 184
+# Operation    : 5
+# Result Output: 65343
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 208
+# B Input      : 139
+# Operation    : 3
+# Result Output: 219
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 157
+# B Input      : 181
+# Operation    : 7
+# Result Output: 78
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 20
+# B Input      : 188
+# Operation    : 6
+# Result Output: 40
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 130
+# B Input      : 77
+# Operation    : 5
+# Result Output: 65405
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 14
+# B Input      : 133
+# Operation    : 3
+# Result Output: 143
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 130
+# B Input      : 181
+# Operation    : 0
+# Result Output: 311
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 10
+# B Input      : 171
+# Operation    : 4
+# Result Output: 161
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 169
+# B Input      : 225
+# Operation    : 6
+# Result Output: 338
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 136
+# B Input      : 55
+# Operation    : 2
+# Result Output: 0
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 56
+# B Input      : 208
+# Operation    : 6
+# Result Output: 112
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 199
+# B Input      : 17
+# Operation    : 7
+# Result Output: 99
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 118
+# B Input      : 154
+# Operation    : 0
+# Result Output: 272
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 149
+# B Input      : 134
+# Operation    : 0
+# Result Output: 283
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 31
+# B Input      : 118
+# Operation    : 7
+# Result Output: 15
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 45
+# B Input      : 186
+# Operation    : 6
+# Result Output: 90
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 213
+# B Input      : 57
+# Operation    : 0
+# Result Output: 270
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 148
+# B Input      : 126
+# Operation    : 6
+# Result Output: 296
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 36
+# B Input      : 174
+# Operation    : 5
+# Result Output: 65499
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 95
+# B Input      : 6
+# Operation    : 4
+# Result Output: 89
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 11
+# B Input      : 138
+# Operation    : 4
+# Result Output: 129
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 25
+# B Input      : 201
+# Operation    : 2
+# Result Output: 9
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 159
+# B Input      : 31
+# Operation    : 7
+# Result Output: 79
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 225
+# B Input      : 192
+# Operation    : 3
+# Result Output: 225
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 83
+# B Input      : 143
+# Operation    : 1
+# Result Output: 65476
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 183
+# B Input      : 84
+# Operation    : 6
+# Result Output: 366
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 37
+# B Input      : 201
+# Operation    : 5
+# Result Output: 65498
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 198
+# B Input      : 112
+# Operation    : 2
+# Result Output: 64
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 1
+# B Input      : 49
+# Operation    : 7
+# Result Output: 0
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 165
+# B Input      : 128
+# Operation    : 3
+# Result Output: 165
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 74
+# B Input      : 116
+# Operation    : 1
+# Result Output: 65494
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 118
+# B Input      : 214
+# Operation    : 5
+# Result Output: 65417
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 62
+# B Input      : 30
+# Operation    : 2
+# Result Output: 30
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 41
+# B Input      : 54
+# Operation    : 7
+# Result Output: 20
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 168
+# B Input      : 76
+# Operation    : 3
+# Result Output: 236
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 133
+# B Input      : 202
+# Operation    : 4
+# Result Output: 79
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 172
+# B Input      : 175
+# Operation    : 0
+# Result Output: 347
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 203
+# B Input      : 86
+# Operation    : 0
+# Result Output: 289
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 30
+# B Input      : 223
+# Operation    : 3
+# Result Output: 223
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 68
+# B Input      : 48
+# Operation    : 0
+# Result Output: 116
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 189
+# B Input      : 101
+# Operation    : 5
+# Result Output: 65346
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 146
+# B Input      : 101
+# Operation    : 2
+# Result Output: 0
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 61
+# B Input      : 70
+# Operation    : 0
+# Result Output: 131
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 214
+# B Input      : 137
+# Operation    : 7
+# Result Output: 107
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 215
+# B Input      : 225
+# Operation    : 2
+# Result Output: 193
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 20
+# B Input      : 210
+# Operation    : 6
+# Result Output: 40
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 181
+# B Input      : 184
+# Operation    : 7
+# Result Output: 90
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 46
+# B Input      : 211
+# Operation    : 1
+# Result Output: 65371
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 86
+# B Input      : 219
+# Operation    : 2
+# Result Output: 82
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 177
+# B Input      : 81
+# Operation    : 1
+# Result Output: 96
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 56
+# B Input      : 20
+# Operation    : 4
+# Result Output: 44
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 223
+# B Input      : 38
+# Operation    : 6
+# Result Output: 446
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 46
+# B Input      : 169
+# Operation    : 2
+# Result Output: 40
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 152
+# B Input      : 163
+# Operation    : 5
+# Result Output: 65383
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 113
+# B Input      : 168
+# Operation    : 7
+# Result Output: 56
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 209
+# B Input      : 25
+# Operation    : 3
+# Result Output: 217
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 165
+# B Input      : 123
+# Operation    : 1
+# Result Output: 42
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 196
+# B Input      : 98
+# Operation    : 3
+# Result Output: 230
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 206
+# B Input      : 40
+# Operation    : 7
+# Result Output: 103
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 220
+# B Input      : 185
+# Operation    : 2
+# Result Output: 152
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 136
+# B Input      : 163
+# Operation    : 4
+# Result Output: 43
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 159
+# B Input      : 44
+# Operation    : 5
+# Result Output: 65376
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 19
+# B Input      : 45
+# Operation    : 6
+# Result Output: 38
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 19
+# B Input      : 94
+# Operation    : 1
+# Result Output: 65461
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 202
+# B Input      : 115
+# Operation    : 2
+# Result Output: 66
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 180
+# B Input      : 99
+# Operation    : 0
+# Result Output: 279
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 105
+# B Input      : 148
+# Operation    : 2
+# Result Output: 0
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 165
+# B Input      : 78
+# Operation    : 0
+# Result Output: 243
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 35
+# B Input      : 144
+# Operation    : 5
+# Result Output: 65500
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 7
+# B Input      : 170
+# Operation    : 5
+# Result Output: 65528
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 137
+# B Input      : 57
+# Operation    : 5
+# Result Output: 65398
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 182
+# B Input      : 87
+# Operation    : 6
+# Result Output: 364
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 18
+# B Input      : 174
+# Operation    : 4
+# Result Output: 188
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 140
+# B Input      : 36
+# Operation    : 0
+# Result Output: 176
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 145
+# B Input      : 137
+# Operation    : 6
+# Result Output: 290
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 104
+# B Input      : 41
+# Operation    : 5
+# Result Output: 65431
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 142
+# B Input      : 177
+# Operation    : 4
+# Result Output: 63
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 184
+# B Input      : 116
+# Operation    : 6
+# Result Output: 368
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 218
+# B Input      : 128
+# Operation    : 2
+# Result Output: 128
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 191
+# B Input      : 81
+# Operation    : 3
+# Result Output: 255
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 218
+# B Input      : 118
+# Operation    : 2
+# Result Output: 82
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 173
+# B Input      : 201
+# Operation    : 0
+# Result Output: 374
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 140
+# B Input      : 69
+# Operation    : 1
+# Result Output: 71
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 76
+# B Input      : 154
+# Operation    : 3
+# Result Output: 222
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 176
+# B Input      : 111
+# Operation    : 5
+# Result Output: 65359
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 149
+# B Input      : 105
+# Operation    : 6
+# Result Output: 298
+# ------------------------------------------
+# Mismatch Detected!
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 53
+# B Input      : 17
+# Operation    : 0
+# Result Output: 70
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 143
+# B Input      : 60
+# Operation    : 7
+# Result Output: 71
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 113
+# B Input      : 3
+# Operation    : 0
+# Result Output: 116
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 53
+# B Input      : 110
+# Operation    : 7
+# Result Output: 26
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 154
+# B Input      : 141
+# Operation    : 0
+# Result Output: 295
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 116
+# B Input      : 23
+# Operation    : 0
+# Result Output: 139
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 186
+# B Input      : 92
+# Operation    : 0
+# Result Output: 278
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 214
+# B Input      : 182
+# Operation    : 1
+# Result Output: 32
+# ------------------------------------------
+# ------------------------------------------
+# Message      : Ref Monitor
+# A Input      : 167
+# B Input      : 188
+# Operation    : 0
+# Result Output: 355
+# ------------------------------------------
+# ----------------------SCOREBOARD REPORT------------------------
+# Arithmetic Operations Count: 126
+# Logical Operations Count: 238
+# Shift Operations Count: 136
+# Total number of transactions : 500
+# ----------------------------------------------------------------
+# ** Note: $finish    : ../test/alu_top.sv(44)
+#    Time: 20030 ns  Iteration: 5  Instance: /alu_top
+# Saving coverage database on exit...
+# End time: 00:36:17 on Feb 16,2026, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 1
